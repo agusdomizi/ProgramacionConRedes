@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejer03Formularios</title>
+</head>
+    <body>
+        <h1>Formulario Html</h1>
+    
+        <h2>Entradas simples</h2>
+    
+        <form action="./respuestaFormulario.html" target="_blank" method="get">
+            <ul>
+            <li><label style="font-weight: bold;" for="apellido" >  Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido" autofocus="autofocus">
+        </li>
+        <li>    
+        <label style="font-weight: bold;" for="contrasena"> Contraseña:</label><br>
+            <input type="password" type="hidden" name="contrasena" id="contrasena">
+        </li>
+        <li>    
+        <label> Oculto:</label><br>
+        <label> Campo deshabilitado:</label><br>
+            <span class="disabled-field">valor deshabilitado</span></p>
+        </li>
+        <li>
+            <p><strong>Campo de solo lectura</strong><br>
+            <span class="readonly-field">valorSoloLectura</span></p>
+        </li>
+        </ul>
+            <h2>Entradas de selección</h2>
+    
+            <p><strong>Practica deportes</strong><br>
+            <input type="checkbox" name="deportes"></p>
+    
+            <p><strong>Practica musical</strong><br>
+            <input type="checkbox" name="musical"></p>
+    
+            <p><strong>Practica de pintura artística</strong><br>
+            <input type="checkbox" name="pintura"></p>
+    
+            <p><strong>Sexo</strong><br>
+            <input type="radio" name="sexo" value="masculino"> Masculino
+            <input type="radio" name="sexo" value="femenino"> Femenino </p>
+    
+            <p><strong>Estudios cursados</strong><br>
+            <input type="checkbox" name="estudios" checked> Primarios</p>
+    
+            <p><strong>Fecha y Hora</strong><br>
+            <input type="text" name="fecha" placeholder="dd/mm/aaaa"></p>
+    
+            <p><strong>Color</strong><br>
+            <input type="color" name="color"></p>
+            <button type="submit">Envio del formulario</button>
+            <button type="reset">Reset del formulario</button>
+        </form>
+    </body>
+    </html>
