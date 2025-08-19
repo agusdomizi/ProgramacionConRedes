@@ -21,39 +21,55 @@
             <input type="password" type="hidden" name="contrasena" id="contrasena">
         </li>
         <li>    
-        <label> Oculto:</label><br>
         <label> Campo deshabilitado:</label><br>
-            <span class="disabled-field">valor deshabilitado</span></p>
+            <input type="text" placeholder="Campo deshabilitado" disabled></input>
         </li>
-        <li>
-            <p><strong>Campo de solo lectura</strong><br>
-            <span class="readonly-field">valorSoloLectura</span></p>
-        </li>
+        <li>    
+            <label> Campo solo lectura:</label><br>
+                <input type="text" value="Campo solo lectura" readonly></input>
+            </li>
+        
         </ul>
             <h2>Entradas de selección</h2>
-    
-            <p><strong>Practica deportes</strong><br>
-            <input type="checkbox" name="deportes"></p>
-    
-            <p><strong>Practica musical</strong><br>
-            <input type="checkbox" name="musical"></p>
-    
-            <p><strong>Practica de pintura artística</strong><br>
-            <input type="checkbox" name="pintura"></p>
-    
-            <p><strong>Sexo</strong><br>
-            <input type="radio" name="sexo" value="masculino"> Masculino
-            <input type="radio" name="sexo" value="femenino"> Femenino </p>
-    
-            <p><strong>Estudios cursados</strong><br>
-            <input type="checkbox" name="estudios" checked> Primarios</p>
-    
-            <p><strong>Fecha y Hora</strong><br>
-            <input type="text" name="fecha" placeholder="dd/mm/aaaa"></p>
-    
-            <p><strong>Color</strong><br>
-            <input type="color" name="color"></p>
-            <button type="submit">Envio del formulario</button>
+    <ul>
+        <li>
+            <label for="deportes">Practica deportes</label><br>
+            <input type="checkbox" id="deportes" name="deportes" value="si"><br><br>
+        </li>
+        <li>
+            <label for="musical">Practica Musical</label><br>
+            <input type="checkbox" id="musical" name="musical" value="si"><br><br>
+        </li>
+        <li>
+            <label for="pintura">Practica de pintura artística</label><br>
+            <input type="checkbox" id="pintura" name="pintura" value="si"><br><br>
+        </li>
+        <li>
+            <label for="sexo">Sexo</label><br>
+            <input type="radio" name="sexo" value="m"> Masculino
+            <input type="radio" name="sexo" value="f"> Femenino <br><br>
+        </li>
+        <li>
+            <label for="estudios"> Estudios cursados </label><br>
+            <input type="checkbox" name="estudios" checked> Primarios <br><br>
+        </li>
+        <li>
+            <label for="fecha"> Fecha y Hora </label><br>
+            <input type="text" name="fecha" id="fecha" placeholder="dd/mm/aaaa"><br><br>
+        </li>
+        <li>
+            <label for="color">Color</label><br>
+            <input type="color" id="color" name="color"><br><br>
+        </li>
+            <h2>Entradas con validación</h2>
+        </ul>
+            <ul>
+                <li>
+                    <label for="comentario">Comentario (validación por requerido)</label><br>
+                    <input type="text" id="comentario" name="comentario" required>
+                </li>
+            </ul>
+            <button type="submit" value="submit">Envio del formulario</button>
             <button type="reset">Reset del formulario</button>
         </form>
     </body>
