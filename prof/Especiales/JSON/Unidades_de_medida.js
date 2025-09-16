@@ -5,5 +5,5 @@ var UnidadesDeMedida = [
 	{ cod: "PQ", descripcion: "Paquete" },
     { cod: "MT", descripcion: "Metro" },
     { cod: "KG", descripcion: "Kilogramo" },
-    { cod: "LT", descripcion: "Litro" },
+    { cod: "LT", descripcion: "Litro" }
 ];
