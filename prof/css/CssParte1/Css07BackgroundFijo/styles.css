@@ -27,6 +27,5 @@ div{
     padding: 1%;
 }
 .contenedor{
-    display: flex;
-    justify-content: center;
+    margin: auto;
 }
