@@ -153,7 +153,7 @@ Facturas_de_compra = [
       "NroFactura": "FAC-0006",
       "cod-prod": "PRD-015",
       "Descripcion-producto-servicio": "Soporte técnico remoto mensual",
-      "Unidad-medida": "CN",
+      "Unidad-medida": "HS",
       "Cantidad": 1,
       "PrecioUnit": 150.00,
       "TotalRenglon": 150.00,
