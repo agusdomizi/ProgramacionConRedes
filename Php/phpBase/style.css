@@ -1,0 +1,42 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .resultado {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #f32121;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        .volver-atras {
+            background-color: rgb(250, 0, 0);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 2px;
+        }
+        .volver-atras a {
+            color: white;
+            text-decoration: none;
+        }
+        tr, td {
+            background-color: #ff9c9c;
+            padding: 20px;
+            border: 1px solid #6a0000;
+        }
+        th {
+            background-color: #f32121;
+            padding: 20px;
+            color: white;
+        }

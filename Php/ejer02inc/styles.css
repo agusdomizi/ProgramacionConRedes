@@ -1,0 +1,34 @@
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        table td {
+            border: 1px solid #6a0000;
+            background-color: rgb(254, 146, 146);
+            padding: 5px;
+        }
+
+        .volver-atras {
+            background-color: rgb(255, 0, 0);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 2px;
+        }
+
+        .volver-atras a {
+            color: white;
+            text-decoration: none;
+        }

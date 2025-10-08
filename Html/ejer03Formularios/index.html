@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejer03Formularios</title>
+</head>
+    <body>
+        <h1>Formulario Html</h1>
+    
+        <h2>Entradas simples</h2>
+    
+        <form action="./respuestaFormulario.html" target="_blank" method="get">
+            <ul>
+            <li><label style="font-weight: bold;" for="apellido" >  Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido" autofocus="autofocus">
+        </li>
+        <li>    
+        <label style="font-weight: bold;" for="contrasena"> Contraseña:</label><br>
+            <input type="password" type="hidden" name="contrasena" id="contrasena">
+        </li>
+        <li>    
+        <label> Campo deshabilitado:</label><br>
+            <input type="text" placeholder="Campo deshabilitado" disabled></input>
+        </li>
+        <li>    
+            <label> Campo solo lectura:</label><br>
+                <input type="text" value="Campo solo lectura" readonly></input>
+            </li>
+        
+        </ul>
+            <h2>Entradas de selección</h2>
+    <ul>
+        <li>
+            <label for="deportes">Practica deportes</label><br>
+            <input type="checkbox" id="deportes" name="deportes" value="si"><br><br>
+        </li>
+        <li>
+            <label for="musical">Practica Musical</label><br>
+            <input type="checkbox" id="musical" name="musical" value="si"><br><br>
+        </li>
+        <li>
+            <label for="pintura">Practica de pintura artística</label><br>
+            <input type="checkbox" id="pintura" name="pintura" value="si"><br><br>
+        </li>
+        <li>
+            <label for="sexo">Sexo</label><br>
+            <input type="radio" name="sexo" value="m"> Masculino
+            <input type="radio" name="sexo" value="f"> Femenino <br><br>
+        </li>
+        <li>
+            <label for="estudios"> Estudios cursados </label><br>
+            <input type="checkbox" name="estudios" checked> Primarios <br><br>
+        </li>
+        <li>
+            <label for="fecha"> Fecha y Hora </label><br>
+            <input type="text" name="fecha" id="fecha" placeholder="dd/mm/aaaa"><br><br>
+        </li>
+        <li>
+            <label for="color">Color</label><br>
+            <input type="color" id="color" name="color"><br><br>
+        </li>
+            <h2>Entradas con validación</h2>
+        </ul>
+            <ul>
+                <li>
+                    <label for="comentario">Comentario (validación por requerido)</label><br>
+                    <input type="text" id="comentario" name="comentario" required>
+                </li>
+            </ul>
+            <button type="submit" value="submit">Envio del formulario</button>
+            <button type="reset">Reset del formulario</button>
+        </form>
+    </body>
+    </html>
