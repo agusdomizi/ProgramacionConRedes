@@ -21,7 +21,7 @@ if (isset($_POST["varDeEntrada"])) {
     $objDatos->encriptada = $claveEncriptada;
     $objDatos->encriptada = $claveEncriptadamd5;
 
-    echo "<button class='volver-atras'><a class='volver-atras' href='./index.php'>Volver atras</a></button>";
+    echo "<button class='volver-atras'><a class='volver-atras' href='./index.html'>Volver</a></button>";
 } else {
 ?>
     <h1>Envío de Formulario</h1>
@@ -31,7 +31,7 @@ if (isset($_POST["varDeEntrada"])) {
         <button class="submit" type="submit">Enviar</button>
     </form>
     <button class="volver-atras">
-        <a class="volver-atras" href="../index.php">Volver atras</a>
+        <a class="volver-atras" href="../index.html">Volver</a>
     </button>
 </body>
 </html>
