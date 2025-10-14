@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../ejer05MuestraVariablesServidor/style.css">
+</head>
+<body>
 <?php
 if (isset($_POST["varDeEntrada"])) {
     $varDeEntrada = $_POST["varDeEntrada"];
@@ -17,13 +24,6 @@ if (isset($_POST["varDeEntrada"])) {
     echo "<button class='volver-atras'><a class='volver-atras' href='./index.php'>Volver atras</a></button>";
 } else {
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Formulario</title>
-    <link rel="stylesheet" href="../ejer05MuestraVariablesServidor/style.css">
-</head>
-<body>
     <h1>Envío de Formulario</h1>
     <form method="post" action="">
         <label>Ingrese un valor:</label>
