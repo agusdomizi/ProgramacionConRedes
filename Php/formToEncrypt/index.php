@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Formulario</title>
-    <link rel="stylesheet" href="../ejer05MuestraVariablesServidor/style.css">
+    <link rel="stylesheet" href="../ejer05MuestraVariablesServidor/styles.css">
 </head>
 <body>
 <?php
@@ -31,7 +31,7 @@ if (isset($_POST["varDeEntrada"])) {
         <button class="submit" type="submit">Enviar</button>
     </form>
     <button class="volver-atras">
-        <a class="volver-atras" href="../index.html">Volver</a>
+        <a class="volver-atras" href="../index.php">Volver</a>
     </button>
 </body>
 </html>
